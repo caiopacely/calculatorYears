@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(0, 0%, 94%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    height: 65vh;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    
+    
+    
+}
+
+@media (min-width: 900px){
+    .container{
+        width: 900px;
+        margin-inline: 30px;
+        
+        
+    }
+}
+
+.imageSeta{
+    position: relative;
+    
+    
+}
+
+.inputs{
+    display: flex;
+    height: 30%;
+    align-items: center;
+    margin-left: 3vw;
+    gap: 10px;
+}
+input{
+    height: 6vh;
+    width: 23vw;
+    border-radius: 10px;
+    font-size: 32px;
+    padding-left: 8px;
+    border: 1px solid;
+}
+
+@media (min-width: 462px){
+    input{
+        width: 105px;        
+    }
+    h1{
+        font-size: 20px;
+    }   
+}
+
+.conteudo{
+    padding-inline: 40px;
+    
+}
+.row{
+    margin-inline: 30px;
+    height: 1px;
+    background-color: hsl(0, 1%, 44%);
+    
+}
+img{
+    height: 60px;
+    position: absolute;
+    top: -4vh;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 14vw;
+    
+}
+label{
+    color: hsl(0, 1%, 44%);
+}
+
+.years{
+    color: hsl(259, 100%, 65%);
+}
+.months{
+    color: hsl(259, 100%, 65%);
+}
+.days{
+    color: hsl(259, 100%, 65%);
+}
