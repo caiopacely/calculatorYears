@@ -24,9 +24,9 @@ body{
     
 }
 
-@media (min-width: 900px){
+@media (min-width: 780px){
     .container{
-        width: 900px;
+        width: 780px;
         margin-inline: 30px;
         
         
@@ -55,15 +55,6 @@ input{
     border: 1px solid;
 }
 
-@media (min-width: 462px){
-    input{
-        width: 105px;        
-    }
-    h1{
-        font-size: 20px;
-    }   
-}
-
 .conteudo{
     padding-inline: 40px;
     
@@ -88,6 +79,18 @@ h1{
     font-size: 14vw;
     
 }
+
+@media (min-width: 462px){
+    input{
+        width: 105px;        
+    }
+    
+    h1{
+        font-size: 80px;
+
+    }   
+}
+
 label{
     color: hsl(0, 1%, 44%);
 }
